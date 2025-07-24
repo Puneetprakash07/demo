@@ -1,6 +1,7 @@
 {
   "mappings": [
-    "/:/"
+    "/content/demo-eds-adaptive-form:/",
+    "content/demo-eds-adaptive-form/adaptive-form/adaptive-form-spreadsheet:content/demo-eds-adaptive-form/adaptive-form/adaptive-form-spreadsheet.json"
   ],
   "includes": [
     "/content/",
