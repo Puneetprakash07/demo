@@ -68,8 +68,8 @@
       "text-input",
       "tnc",
       "wizard",
-      "card",
-      "column"
+      "cards",
+      "columns"
     ]
   }
 ]
