@@ -787,3 +787,13 @@ main div.form-wrapper {
         margin: 0;
     }
 }
+.dummy-style-form-section > div {
+    max-width: 700px !important;
+}
+#panelcontainer-317d7e78f0 > .field-wrapper label{
+    color: #0f5132;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
