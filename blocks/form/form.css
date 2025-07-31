@@ -958,12 +958,266 @@ button[type="submit"]:hover {
 
 /* trial for light theme for form starts */
 .adoptive-form-light{
-    background-color: #842029;
+    margin: 0 auto !important;
+    background-color: #eee8e9 !important;
+}
+.adoptive-form-light .form-wrapper{
+    background: unset;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: unset;
+}
+.adoptive-form-light form{
+    background-color: #eee8e9;
+    position: relative;
+}
+.adoptive-form-light form div:nth-child(1),
+.adoptive-form-light form div:nth-child(2){
+    /* background-color: #a19f9d; */
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+}
+.adoptive-form-light .field-st-text1{
+    border-bottom: 3px solid orangered;
+}
+.adoptive-form-light .field-st-text1 p > p:nth-child(1),
+.adoptive-form-light .field-mt-text p > p:nth-child(1){
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: 5px;
+}
+.adoptive-form-light .field-st-text1 p > p:nth-child(2),
+.adoptive-form-light .field-mt-text p > p:nth-child(2){
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+.adoptive-form-light .checkbox-wrapper{
+    padding-left: 5px;
+}
+.adoptive-form-light .checkbox-wrapper label{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: fangsong;
+}
+.adoptive-form-light .image-wrapper picture img{
+    height: 120px;
+}
+.adoptive-form-light .field-usa-canada-text{
+    position: absolute;
+    left: 13px;
+    top: 40%;
+    font-size: 14px;
+}
+.adoptive-form-light .field-asia-text{
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    font-size: 14px;
+}
+.adoptive-form-light .field-text-12027822511753952369033{
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    font-size: 14px;
+}
+.adoptive-form-light .field-rest-world-txt{
+    position: absolute;
+    left: 81.5%;
+    top: 40%;
+    font-size: 14px;
+}
+.adoptive-form-light #text-93008ee748{
+    margin-top: 40px;
+}
+.adoptive-form-light .field-usa-canada-text p p,
+.adoptive-form-light .field-asia-text p p,
+.adoptive-form-light .field-text-12027822511753952369033 p p,
+.adoptive-form-light .field-rest-world-txt p p{
+    font-size: 14px;
+}
+.adoptive-form-light .field-text-2289610521753945644700 p{
+    margin-bottom: 0;
+}
+.adoptive-form-light .field-text-2289610521753945644700 p p{
+    margin-bottom: 0;
+}
+.adoptive-form-light .field-text-2289610521753945644700 p p a{
+    color: rgb(75 72 72);
+    font-size: 17.5px;
+    font-family: none;
+}
+.adoptive-form-light .field-text-2289610521753945644700 p p a:hover{
+    color: rgb(142, 140, 140);
+}
+.adoptive-form-light .date-wrapper input{
+    height: 50px;
+    margin-bottom: 0;
+    font-size: 17px;
+    padding-left: 20px;
+    font-family: 'roboto';
+    cursor: pointer;
+}
+.adoptive-form-light .checkbox-wrapper input{
+    cursor: pointer;
+}
+.adoptive-form-light .field-below-checkbox-txt{
+    position: absolute;
+    bottom: 12.5%;
+}
+.adoptive-form-light .field-below-checkbox-txt p p {
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.adoptive-form-light form .button-wrapper button{
+    margin-top: 25px;
 }
 /* trial for light theme for form ends */
 
-/* trial for light theme for form starts */
+
+/* trial for dark theme for form starts */
 .adoptive-form-dark{
-    background-color: #232222;
+    margin: 0 auto !important;
+    background-color: #121212 !important;
 }
-/* trial for light theme for form ends */
+.adoptive-form-dark .form-wrapper{
+    background: unset;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: unset;
+}
+.adoptive-form-dark form{
+    background-color: #121212 ;
+    position: relative;
+}
+.adoptive-form-dark form div:nth-child(1),
+.adoptive-form-dark form div:nth-child(2){
+    /* background-color: #a19f9d; */
+    margin: 0;
+    width: 100%;
+    cursor: pointer;
+}
+.adoptive-form-dark .field-st-text1{
+    border-bottom: 3px solid orangered;
+}
+.adoptive-form-dark .field-st-text1 p > p:nth-child(1),
+.adoptive-form-dark .field-mt-text p > p:nth-child(1){
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: 5px;
+    color: wheat;
+}
+.adoptive-form-dark .field-st-text1 p > p:nth-child(2),
+.adoptive-form-dark .field-mt-text p > p:nth-child(2){
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color: wheat;
+}
+.adoptive-form-dark .checkbox-wrapper{
+    padding-left: 5px;
+}
+.adoptive-form-dark .checkbox-wrapper label{
+    margin-bottom: 0;
+    font-weight: 600;
+    font-size: 1.6rem;
+    line-height: 2rem;
+    font-family: fangsong;
+    color: white !important;
+}
+.adoptive-form-dark .image-wrapper picture img{
+    height: 120px;
+}
+.adoptive-form-dark .field-usa-canada-text{
+    position: absolute;
+    left: 13px;
+    top: 40%;
+    font-size: 14px;
+    color: wheat;
+}
+.adoptive-form-dark .field-asia-text{
+    position: absolute;
+    left: 33%;
+    top: 40%;
+    font-size: 14px;
+    color: wheat;
+}
+.adoptive-form-dark .field-text-12027822511753952369033{
+    position: absolute;
+    left: 58%;
+    top: 40%;
+    font-size: 14px;
+    color: wheat;
+}
+.adoptive-form-dark .field-rest-world-txt{
+    position: absolute;
+    left: 81.5%;
+    top: 40%;
+    font-size: 14px;
+    color: wheat;
+}
+.adoptive-form-dark #text-93008ee748{
+    margin-top: 40px;
+}
+.adoptive-form-dark .field-usa-canada-text p p,
+.adoptive-form-dark .field-asia-text p p,
+.adoptive-form-dark .field-text-12027822511753952369033 p p,
+.adoptive-form-dark .field-rest-world-txt p p{
+    font-size: 14px;
+    color: wheat;
+}
+.adoptive-form-dark .field-text-2289610521753945644700 p{
+    margin-bottom: 0;
+}
+.adoptive-form-dark .field-text-2289610521753945644700 p p{
+    margin-bottom: 0;
+}
+.adoptive-form-dark .field-text-2289610521753945644700 p p a{
+    color: rgb(75 72 72);
+    font-size: 17.5px;
+    font-family: none;
+    color: white;
+}
+.adoptive-form-dark .field-text-2289610521753945644700 p p a:hover{
+    color: rgb(115, 112, 112);
+}
+.adoptive-form-dark .date-wrapper input{
+    height: 50px;
+    margin-bottom: 0;
+    font-size: 17px;
+    padding-left: 20px;
+    font-family: 'roboto';
+    cursor: pointer;
+}
+.adoptive-form-dark .checkbox-wrapper input{
+    cursor: pointer;
+}
+.adoptive-form-dark .field-below-checkbox-txt{
+    position: absolute;
+    bottom: 12.5%;
+    color: white;
+}
+.adoptive-form-dark .field-below-checkbox-txt p p {
+    padding-left: 25px;
+    font-size: 15px;
+    font-weight: 300;
+    color: white;
+}
+.adoptive-form-dark form .button-wrapper button{
+    margin-top: 25px;
+}
+/* trial for dark theme for form ends */
