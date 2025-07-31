@@ -954,3 +954,16 @@ button[type="submit"]:hover {
 }
 
 /* trial for form design css starts */
+
+
+/* trial for light theme for form starts */
+.adoptive-form-light{
+    background-color: #842029;
+}
+/* trial for light theme for form ends */
+
+/* trial for light theme for form starts */
+.adoptive-form-dark{
+    background-color: #232222;
+}
+/* trial for light theme for form ends */
