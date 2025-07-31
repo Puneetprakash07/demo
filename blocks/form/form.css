@@ -1145,28 +1145,28 @@ button[type="submit"]:hover {
 .adoptive-form-dark .field-usa-canada-text{
     position: absolute;
     left: 13px;
-    top: 40%;
+    top: 42%;
     font-size: 14px;
     color: wheat;
 }
 .adoptive-form-dark .field-asia-text{
     position: absolute;
     left: 33%;
-    top: 40%;
+    top: 42%;
     font-size: 14px;
     color: wheat;
 }
 .adoptive-form-dark .field-text-12027822511753952369033{
     position: absolute;
     left: 58%;
-    top: 40%;
+    top: 42%;
     font-size: 14px;
     color: wheat;
 }
 .adoptive-form-dark .field-rest-world-txt{
     position: absolute;
     left: 81.5%;
-    top: 40%;
+    top: 42%;
     font-size: 14px;
     color: wheat;
 }
@@ -1219,5 +1219,8 @@ button[type="submit"]:hover {
 }
 .adoptive-form-dark form .button-wrapper button{
     margin-top: 25px;
+}
+.adoptive-form-dark form div:nth-child(13){
+    margin-top: 20px !important;
 }
 /* trial for dark theme for form ends */
