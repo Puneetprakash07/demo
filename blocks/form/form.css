@@ -771,6 +771,7 @@ main div.form-wrapper {
     padding: 40px;
     border-radius: 12px;
     box-shadow: 0 4px 24px rgb(0 0 0 / 8%);
+    margin-bottom: 50px;
 }
 
 /* Responsive adjustments for mobile */
@@ -792,8 +793,164 @@ main div.form-wrapper {
 }
 #panelcontainer-317d7e78f0 > .field-wrapper label{
     color: #0f5132;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin-bottom: unset;
+}
+
+
+
+/* trial for form design css starts */
+/* Form Container */
+.form-container {
+  background: #f7f9fb;
+  padding: 40px 20px;
+  border-radius: 12px;
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Field Wrappers */
+.field-wrapper {
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.field-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+  font-size: 18px;
+  font-weight: 400;
+}
+.drop-down-wrapper select {
+    cursor: pointer;
+}
+/* Inputs, Selects */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: border 0.3s ease;
+}
+
+input:focus,
+select:focus {
+  border-color: #007acc;
+  outline: none;
+}
+
+/* Two-column layout (for col-6 fields) */
+.col-6 {
+  width: 48%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 4%;
+}
+
+.col-6:nth-child(even) {
+  margin-right: 0;
+}
+
+/* Full width fields */
+.col-12 {
+  width: 100%;
+}
+
+/* Checkbox Group */
+.checkbox-group-wrapper {
+  background: #eef4f8;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.checkbox-wrapper {
+  margin-bottom: 8px;
+}
+
+.checkbox-wrapper input {
+  margin-right: 8px;
+}
+.checkbox-wrapper > label{
+    font-size: 18px !important;
+    line-height: 1.5;
+    font-weight: 400 !important;
+    color: #333 !important;
+}
+#text-b5d0527a9c > p{
+    margin-bottom: unset;
+}
+#text-b5d0527a9c > p >p {
+    text-decoration: underline;
+    margin-bottom: unset;
+}
+#text-673fb58fe9 > p > p{
+    color: #0f5132;
+    margin-bottom: unset;
+    color: #0f5132;
+    font-size: 18px;
     font-weight: 700;
     font-family: sans-serif;
     line-height: 1.5;
 }
+/* Panel Legend */
+legend.field-label {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #007acc;
+}
+
+/* Submit Button */
+button[type="submit"] {
+  background-color: #007acc;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 10px !important;
+  transition: background 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #76bae3;
+}
+
+/* Error/Info Message */
+.field-errormeassage1 p {
+  color: red;
+  font-style: italic;
+  background: #fff4f4;
+  padding: 10px;
+  border-left: 4px solid red;
+  border-radius: 6px;
+}
+.panel-wrapper legend{
+    font-size: 24px !important;
+    color: rgb(77, 19, 19);
+    font-weight: 700 !important;
+    font-family: sans-serif;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  .col-6 {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/* trial for form design css starts */

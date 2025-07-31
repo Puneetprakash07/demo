@@ -116,6 +116,9 @@
           {
             "name": "dummy-style-form-section",
             "value": "dummy-style-form-section"
+          },{
+            "name": "adoptive-form-light",
+            "value": "adoptive-form-light"
           }
         ]
       }
