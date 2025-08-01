@@ -1224,3 +1224,21 @@ button[type="submit"]:hover {
     margin-top: 20px !important;
 }
 /* trial for dark theme for form ends */
+
+
+/* css for multi step form starts */
+.adoptive-form-multi-step{
+    margin: 0 auto !important;
+    background-color: #121212 !important;
+}
+.adoptive-form-multi-step .form-wrapper{
+    background: unset;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: unset;
+}
+.adoptive-form-multi-step form{
+    background-color: #121212 ;
+    position: relative;
+}
+/* css for multi step form ends */

@@ -124,6 +124,10 @@
           {
             "name": "adoptive-form-dark",
             "value": "adoptive-form-dark"
+          },
+          {
+            "name": "adoptive-form-multi-step",
+            "value": "adoptive-form-multi-step"
           }
         ]
       }
