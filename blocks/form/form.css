@@ -591,7 +591,7 @@ main .form form .wizard .wizard-menu-item::before {
   height: 35px;
   margin-right: 10px;
   text-align: center;
-  line-height: 2;
+  line-height: 2.3;
   display: inline-block;
 }
 
@@ -1227,18 +1227,138 @@ button[type="submit"]:hover {
 
 
 /* css for multi step form starts */
-.adoptive-form-multi-step{
-    margin: 0 auto !important;
-    background-color: #121212 !important;
+
+.adoptive-form-multi-step {
+  font-family: 'Arial', sans-serif;
+  font-size: 16px;
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 12px;
+  margin: 20px auto !important;
+  box-shadow: unset;
 }
-.adoptive-form-multi-step .form-wrapper{
-    background: unset;
-    padding: 40px;
-    border-radius: 12px;
-    box-shadow: unset;
+
+.adoptive-form-multi-step .field-label {
+  padding-left: 3px;  
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 1px;
+  display: block;
+  color: #837f7f;
 }
-.adoptive-form-multi-step form{
-    background-color: #121212 ;
-    position: relative;
+#text-10b76a57e9 > p{
+    margin-bottom: unset;
 }
+#text-10b76a57e9 > p >p:nth-child(1),
+#text-da444a3e19 > p >p:nth-child(1){
+    color: rgb(86, 86, 86);
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+#text-10b76a57e9 > p >p:nth-child(2),
+#text-da444a3e19 > p >p:nth-child(2){
+    color: #59565e;
+    font-size: 15px;
+    
+}
+#panelcontainer-8d6919b56b .checkbox-wrapper input{
+    cursor: pointer;
+}
+#panelcontainer-8d6919b56b .checkbox-wrapper label{
+    font-size: 14px !important;
+    padding-top: 1.5px;
+}
+.adoptive-form-multi-step input[type="text"],
+.adoptive-form-multi-step input[type="email"],
+.adoptive-form-multi-step input[type="number"],
+.adoptive-form-multi-step textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0;
+  margin-bottom: 1.2rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+#emailinput-365426c7b5{
+    margin-bottom: 0;
+}
+#emailinput-365426c7b5-description{
+    font-size: 14px;
+    font-family: sans-serif;
+    padding: 2px 10px;
+
+}
+.adoptive-form-multi-step textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.adoptive-form-multi-step .wizard-menu-items {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  gap: 1rem;
+}
+
+.adoptive-form-multi-step .wizard-menu-item {
+  padding: 0.5rem 1rem;
+  font-size: 0.95rem;
+  border-radius: 20px;
+  background-color: #ddd;
+  color: #333;
+  cursor: pointer;
+  line-height: 2.3 !important;
+  width: 210px;
+}
+
+.adoptive-form-multi-step .wizard-menu-active-item {
+  background-color: #005fcc;
+  color: white;
+  font-weight: 600;
+  width: 30% !important;
+  line-height: 2.3 !important;
+}
+
+.adoptive-form-multi-step .wizard-button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.adoptive-form-multi-step .button-wrapper button {
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #005fcc;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.adoptive-form-multi-step .button-wrapper button:hover {
+  background-color: #0041a8;
+}
+
+.adoptive-form-multi-step .col-6 {
+  width: 75%;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 2%;
+}
+
+.adoptive-form-multi-step .col-6:nth-child(2n) {
+  margin-right: 0;
+}
+
+.adoptive-form-multi-step .submit-wrapper {
+  text-align: center;
+  margin-top: 2rem;
+}
+
 /* css for multi step form ends */
